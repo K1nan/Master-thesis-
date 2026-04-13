@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="HA7rkgvC0WPx0wDh4gXi">
+    <mxGraphModel dx="4713" dy="2497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="07xCvhwIELfOjdAbG07v-1381" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Disrupt IIoT remote monitoring/control availability and/or compromise integrity of telemetry/control in LoRa–Gateway–AWS IoT Core chain" vertex="1">
+          <mxGeometry height="198" width="260" x="1697" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1382" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Exploit onboarding/join burst behavior to degrade availability (fleet-scale synchronized joins)" vertex="1">
+          <mxGeometry height="126" width="260" x="760" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1383" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Compromise gateway to disrupt routing between LoRa and AWS IoT Core" vertex="1">
+          <mxGeometry height="102" width="260" x="1070" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1384" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Compromise edge nodes (firmware/hardware) to create long-term disruption or forge traffic" vertex="1">
+          <mxGeometry height="126" width="260" x="1380" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1385" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Exploit AWS IoT Core authentication/authorization and certificate lifecycle weaknesses" vertex="1">
+          <mxGeometry height="126" width="274" x="1690" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1386" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Abuse serverless processing and storage to cause outages or integrity loss" vertex="1">
+          <mxGeometry height="126" width="260" x="2014" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1387" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Compromise IAM and cloud management plane to take control or disable services" vertex="1">
+          <mxGeometry height="102" width="260" x="2324" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1388" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Integrity attacks on control path to cause unsafe actuator behavior" vertex="1">
+          <mxGeometry height="102" width="260" x="2634" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1389" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.59;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1382" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1390" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.63;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1383" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1391" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1384" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1392" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1385" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1393" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1386" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2144" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1394" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.63;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1387" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2454" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="07xCvhwIELfOjdAbG07v-1395" edge="1" parent="1" source="07xCvhwIELfOjdAbG07v-1381" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.59;entryX=0.5;entryY=0;rounded=0;" target="07xCvhwIELfOjdAbG07v-1388" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2764" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
